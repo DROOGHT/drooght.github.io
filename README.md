@@ -16,7 +16,7 @@
 
 <p align="center">During your PhD, you will work closely, and be co-supervised by Dominique Mingeot, from the Walloon Center for Agriculture (CRA-W), in Gembloux.</p>
 
-<p align="center"><a href="https://www.guillaumelobet.be/" align="center">see the full job offer</a></p>
+<p align="center"><a href="https://www.guillaumelobet.be/" align="center">>see the full job offer - DROOGHT_001</a></p>
   
 <h3 align="center">Postdoctoral researcher in Root Phenotyping- DROOGHT_002</h3>
 
@@ -24,7 +24,7 @@
 
 <p align="center">You will closely collaborate with other researchers in the group using the techniques and with the postdoctoral researcher developing the multiscale root modelling framework (offer DROOGHT_003).</p>
 
-<p align="center"><a href="https://www.guillaumelobet.be/" align="center">see the full job offer</a></p>
+<p align="center"><a href="https://www.guillaumelobet.be/" align="center">>see the full job offer - DROOGHT_002</a></p>
 
   
 <h3 align="center">Postdoctoral researcher in Root Modeling- DROOGHT_003</h3>
@@ -33,7 +33,9 @@
 
 <p align="center">You will closely collaborate with other researchers in the group using the models and with the postdoctoral researcher developing the model-assisted root phenotyping pipeline (offer DROOGHT_002).</p>
 
-<p align="center"><a href="https://www.guillaumelobet.be/" align="center">see the full job offer</a></p>
+<p align="center"><a href="https://www.guillaumelobet.be/" align="center">>see the full job offer - DROOGHT_003</a></p>
+
+<hr>
 
 <p align="center"><a href="https://www.guillaumelobet.be/">Our group website</a></p>
 
