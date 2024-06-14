@@ -11,21 +11,7 @@
 
 <h2 align="center">Job offers</h2>
   
-<h3 align="center">PhD Researcher in Crop Root Research - DROOGHT_001</h3>
 
-<p align="center">Your goal will be to work on the identification of root traits influencing water dynamics, both in open field, controlled field, and greenhouse conditions. This will be done using the latest root phenotyping tools and techniques developed in the framework of the project.</p>
-
-<p align="center">During your PhD, you will work closely, and be co-supervised by Dominique Mingeot, from the Walloon Center for Agriculture (CRA-W), in Gembloux.</p>
-
-<p align="center"><a href="https://www.dropbox.com/scl/fi/7zsh2k0oxm8v9nmcpzz5u/drooght001_phd.pdf?rlkey=7lugsc023ux8jlit0juulq4ja&dl=0" align="center">>> see the full job offer - DROOGHT_001 <<</a></p>
-  
-<h3 align="center">Postdoctoral researcher in Root Phenotyping- DROOGHT_002</h3>
-
-<p align="center">Your goal will be to work on the development, validation and deployment of a new model-assisted field root phenotyping pipeline. The aim is to develop an open-source, low-cost and scalable pipeline that will enable large-scale description of root systems across many field setups.</p>
-
-<p align="center">You will closely collaborate with other researchers in the group using the techniques and with the postdoctoral researcher developing the multiscale root modelling framework (offer DROOGHT_003).</p>
-
-<p align="center"><a href="https://www.dropbox.com/scl/fi/gtyk4k14l1l3itzm6l6ta/drooght002_postdoc.pdf?rlkey=jdyvrb38frypn5coc4t0dteu2&dl=0" align="center">>> see the full job offer - DROOGHT_002 <<</a></p>
 
   
 <h3 align="center">Postdoctoral researcher in Root Modeling- DROOGHT_003</h3>
