@@ -12,14 +12,6 @@
 <h2 align="center">Job offers</h2>
 
 
-<h3 align="center">DROOGHT003 - Postdoctoral researcher in root modelling</h3>
-
-<p align="center"> Two-year postdoc position to work on the development, validation, and deployment of a new multiscale root modelling pipeline </p>
-
-<p align="center"><a href="https://www.dropbox.com/scl/fi/4spy43seudv3nw6mjqlrz/drooght003_postdoc_offer.pdf?rlkey=wycysqllijacl5txqqa8m3sdu&dl=0">View details</a></p>
-
-
-
 <h3 align="center">DROOGHT004 - Postdoctoral researcher in root/crop modelling</h3>
 
 <p align="center"> Three-year postdoc position to  work on the in silico prediction of root ideotypes for drought resistance across Europe.  </p>
@@ -27,22 +19,7 @@
 <p align="center"><a href="https://www.dropbox.com/scl/fi/6oww2j690evdpjlpladn2/drooght004_postdoc_offer.pdf?rlkey=53u1txn0ypjpntpmlfbgzp0oj&dl=0">View details</a></p>
 
 
-<h3 align="center">DROOGHT005 - PhD researcher in crop root research</h3>
-
-<p align="center"> Four-year PhD position to work on the mapping of root trait variations European scale. </p>
-
-<p align="center"><a href="https://www.dropbox.com/scl/fi/iemn5xmx2cocakdttq18z/drooght005_phd_offer.pdf?rlkey=5t2166jri7q7iwqjyyrssidls&e=1&dl=0">View details</a></p>
-
-
-
-<h3 align="center">DROOGHT006 - PhD researcher in plant root modelling</h3>
-
-<p align="center">Four-year PhD position to identify the structural root traits that most influence water uptake dynamics
-using in silico modeling</p>
-
-<p align="center"><a href="https://www.dropbox.com/scl/fi/2zg4q43omu4fbh4kc3t3n/drooght006_phd_offer.pdf?rlkey=ik3mgv3uu9fcft7dem7abikqp&dl=0">View details</a></p>
-
 <hr>
 
-<p align="center"><a href="https://www.guillaumelobet.be/">Our group website</a></p>
+<p align="center"><a href="https://pepa-lab.github.io/">Our group website</a></p>
 
