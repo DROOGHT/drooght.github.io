@@ -1,0 +1,104 @@
+---
+layout: page
+title: Gallery
+background: '/img/bg-field-3.jpg'
+form: false
+---
+
+<h3>Pictures from the lab</h3>
+
+<div class="gallery">
+  {% for image in site.static_files %}
+    {% if image.path contains 'assets/gallery' and image.extname == '.jpg' %}
+      <div class="gallery-item">
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.basename }}" onclick="openModal('{{ site.baseurl }}{{ image.path }}')">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div id="imageModal" class="modal" onclick="closeModal()">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
+
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+
+  .gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+</style>
+
+<script>
+  function openModal(imgSrc) {
+    document.getElementById('modalImage').src = imgSrc;
+    document.getElementById('imageModal').style.display = "block";
+  }
+
+  function closeModal() {
+    document.getElementById('imageModal').style.display = "none";
+  }
+</script>

@@ -1,0 +1,52 @@
+
+-
+  name: Guillaume Lobet
+  description: >
+    Guillaume is the PI of the DROOGHT project. He tries to understand how plant can better cope with changes in water availability during their growth cycle. To do so, I look at roots, their structure and their organisation . In a wider context, I want to help create sustainable agrosystems that are resilient to drought event and lack of water.
+  pi: yes
+  current: yes
+  image: peep-lobet.jpg
+  url: https://www.guillaumelobet.be/
+  quote: In a world of capitalism, softness is a revolution [Victoriae Pildaer]
+  tags:
+    - root
+    - phenotyping
+    - architecture 
+    - anatomy
+    - modelling
+    - field
+    - agricultural practices
+    - wheat
+
+-
+  name: Lucia Nevescanin Moreno 
+  description: >
+    Lucia is our first postdoc on the project. She works on the developement of our root field phenotyping pipeline. 
+  researcher: yes
+  postdoc : yes
+  current: yes
+  image: peep-nevescanin.jpg
+  tags:
+    - root
+    - wheat
+    - architecture
+    - phenotyping  
+    - cake
+
+-
+  name: Corentin Defalque
+  description: >
+    Corentin is our first PhD student on the project. He work on the functional characteristation of root system architectures and anatomies. 
+  researcher: yes
+  current: yes
+  phd: yes
+  image: peep-defalque.jpeg
+  tags:
+    - root
+    - wheat
+    - drooght
+    - ccp
+
+
+
+

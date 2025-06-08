@@ -1,0 +1,88 @@
+---
+layout: page
+title: Welcome !
+background: '/img/bg-field-4.png'
+---
+
+{% assign counterPeople = 0 %}
+{% for people in site.data.people %}
+    {% assign counterPeople = counterPeople | plus: 1 %}              
+{% endfor %}
+
+{% assign counterTool = 0 %}
+{% for people in site.data.tools %}
+    {% assign counterTool = counterTool | plus: 1 %}              
+{% endfor %}
+
+{% assign counterPapers = 0 %}
+{% for papers in site.data.publications %}
+    {% assign counterPapers = counterPapers | plus: 1 %}              
+{% endfor %}
+
+
+<h4>Welcome to the DROOGHT website !</h4>
+
+ 	The project DROOGHT aims to identify root traits that enhance crop robustness to drought. The project focuses on understanding below-ground processes in cereal crops, particularly the role of root diameter distribution in water uptake.
+
+	The project will use both computational and experimental approaches to identify dominant structural root traits controlling water uptake under water-limited conditions. The outputs will include a multiscale computational framework, a phenotyping pipeline, and the identification of cereal root properties for robust crop across European conditions and climate change scenarios.
+
+	We are {{counterPeople}} enthusiastic people that aim at understanding of root systems' role in water uptake and provide practical insights for breeders and crop modelers. . Check the team <a href="/colleagues">[here]</a>. 
+
+    We are located in the <b>Plant Ecology, ecoPhysiology and sustainable Agriculture lab</b>, from the <a href="https://www.uclouvain.be/en/research-institutes/eli">Earth and Life Institute</a> Agronomy from the <a href="https://www.uclouvain.be/en">UCLouvain</a>, in Belgium.  
+	<br><br>
+    
+	We love creating open tools and ressources for the community. Check our {{counterTool}} tools <a href="/tools">[here]</a>.
+
+   	<br><br>
+   
+
+<br><br>
+
+
+<hr>
+
+
+<hr>
+<hr>
+
+<h4>Latest publications from the project [{{counterPapers}} in total]</h4>
+
+{% assign sorted_publications = site.data.publications | where: "type", "journal" | sort: "year" | reverse %}
+
+{% for publication in sorted_publications limit:3 %}
+
+	<strong class="mb-1">{{ publication.title }}</strong>
+ 	{% if publication.open %}
+    	<span style="color: green;"><i class="far fa-lock-open"></i></span>
+  	{% endif %}
+  	{% if publication.preprint %}
+    	 <span style="color: green;"><i class="far fa-cog fa-spin"></i></span>
+  	{% endif %}                       
+  	<br>
+
+  	<small>{{ publication.year }}</small> | <small>{{ publication.authors }}</small>
+  	<br>
+
+	 <div class="float-right">
+	  {% if publication.doi %}
+	      <a class="btn btn-outline-secondary btn-sm mb-1" href="https://dx.doi.org/{{ publication.doi }}" target="_blank" >
+	        <i class="fa-solid fa-link"></i>
+	      </a>
+	  {% elsif publication.url %}
+	      <a class="btn btn-outline-secondary btn-sm mb-1" href="{{ publication.url }}" target="_blank">
+	        <i class="fa-solid fa-link"></i>
+	      </a>
+	  {% endif %}
+
+	  {% if publication.pdf %}
+	      <a class="btn btn-outline-secondary btn-sm mb-1" href="{{ publication.pdf }}" target="_blank">
+	        <i class="fa-regular fa-file-lines"></i>
+	      </a>
+	  {% endif %}
+	  
+	</div>
+	<br>
+	 <hr>
+
+{% endfor %}
+

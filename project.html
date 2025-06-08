@@ -1,0 +1,45 @@
+---
+layout: page
+title: Some projects
+background: '/img/bg-field-2.png'
+form: false
+---
+
+  <div class="alert alert-info">
+    We closely collaborated with these other projects.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+    {% for project in site.data.projects %}
+
+      <h4 class="mb-1">{{ project.name }}</h4>
+
+      {% if project.tags %}
+        {% for tag in project.tags %}
+        <button type="button" class="btn btn-outline-secondary btn-sm mt-1">
+          <i class="fa-solid fa-tag mr-1"></i>{{tag}}
+        </button>
+        {% endfor %}
+      {% endif %} 
+
+      <p class="mb-1"><p>{{ project.description | markdownify }}</p>
+      
+      {% if project.image %}
+        <img src="{{ project.image }}" alt="{{ project.name }}" class="img-fluid mb-2" style="border-radius: 5px; border: 1px solid black;">
+      {% endif %}
+
+      {% if project.url %}
+      <div class="float-right">
+        <a href="{{ project.url }}" class="btn btn-outline-primary btn-sm" target="_blank">
+          <i class="fa-solid fa-external-link"></i> More
+        </a>
+      </div>
+      {% endif %}
+
+      <br><br>
+      <hr>
+    {% endfor %}
+
+  </div>

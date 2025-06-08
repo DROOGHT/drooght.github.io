@@ -1,0 +1,37 @@
+
+-
+  name: The Plant Water Pump
+  description: >
+    We all know that water flows downhill, or down a gradient of 'potentials'. These reflect the fact that water is drawn by gravity, suction and salts located behind membranes. The laws of physics tell us that it is impossible for water to flow along uphill gradients without consuming external energy. So, each time this phenomenon was observed in plants, scientists searched for active water pumping mechanisms, and hit a snag. Then, a novel micro-hydrological simulator showed that, in theory, neighbouring cells containing different salt concentrations could play the role of water pump. The ERC-funded ThePlantWaterPump project aims to validate this new theory, changing how we think of water transport in plants, and our understanding of droughts impact under changing climates.
+
+
+
+    The Plant Water Pump is financed by the European Research Concil under the Starting Grant scheme. 
+  image: /img/prj-waterpump.jpg
+  url: https://cordis.europa.eu/project/id/101043083/fr
+  tags:
+    - water
+    - root
+    - anatomy
+
+-
+  name: PHENET, Tools and methods for extended plant PHENotyping and EnviroTyping services of European Research Infrastructures
+  description: >
+    Agroecosystems in Europe need an agroecological transition to ensure sustainable food production, resilience to climate change, biodiversity, and soil restoration. The EU-funded PHENET project will bring together the European Research Infrastructures on plant phenotyping (EMPHASIS), ecosystems experimentation (AnaEE), long-term observation (eLTER), and data management and bioinformatics (ELIXIR) to co-develop new tools and methods for the identification of future-proofed combinations of species, genotypes, and management practices. The project will deliver services enabling access to enlarged sources of in situ phenotypic and environmental data thanks to new AI-based multi-trait and multi sensor devices, unleashed access to high-resolution Earth observation data, FAIR data support, and a new generation of predictive modelling AI and digital twins solutions.
+
+
+    PHENET is financed by the European Research Concil under the Horizon Grant scheme. 
+  image: /img/prj-phenet.png
+  url: https://www.phenet.eu/en
+  tags:
+    - phenotyping
+    - crop
+    - wheat
+
+
+
+
+
+
+
+
