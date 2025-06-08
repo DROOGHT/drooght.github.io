@@ -13,17 +13,7 @@ form: fa-solidse
   </div>
 
 
-{% assign counterPI = 0 %}
-{% for people in site.data.people %}
-    {% if people.pi%}
-        {% assign counterPI = counterPI | plus: 1 %}              
-    {% endif %}
-{% endfor %}
-
-<h3> Our {{counterPI}} PI's </h3>
-
       {% for people in site.data.people %}
-        {% if people.pi%}
           <div class="clearfix mb-3">
             <!-- Add the image tag here with float-left class -->
             {% if people.image %}
@@ -32,7 +22,7 @@ form: fa-solidse
 
             <div class="overflow-hidden">
               <h5 class="mb-1">{{ people.name }}</h5>
-              <blockquote class="mb-1">{{ people.quote | markdownify }}</blockquote>
+              <blockquote class="mb-1">{{ people.description | markdownify }}</blockquote>
 
               <div class="float-left">
                   {% if people.tags %}
@@ -62,129 +52,8 @@ form: fa-solidse
             </div>
           </div>
           <hr>          
-      {% endif %}
 
       {% endfor %}
-<hr>
-
-
-{% assign counterResearcher = 0 %}
-{% for people in site.data.people %}
-  {% if people.researcher%}
-      {% assign counterResearcher = counterResearcher | plus: 1 %}              
-  {% endif %}
-{% endfor %}
-
-<h3> Our {{ counterResearcher }} Researchers </h3>
-
-      {% for people in site.data.people %}
-        {% if people.researcher%}
-          <div class="clearfix mb-3">
-            <!-- Add the image tag here with float-left class -->
-            {% if people.image %}
-              <img src="/img/{{ people.image }}" alt="{{ people.name }}" class="float-left mr-3" style="max-width: 150px; border-radius: 5px;">
-            {% endif %}
-
-            <div class="overflow-hidden">
-              <h5 class="mb-1">{{ people.name }}</h5>
-              <!--p class="mb-1">{{ people.description | markdownify }}</p-->
-
-              <div class="float-left">
-                  {% if people.tags %}
-                        {% for tag in people.tags %}
-                        <button type="button" class="btn btn-outline-secondary btn-sm mt-1">
-                          <i class="fa-solid fa-tag mr-1"></i>{{tag}}
-                        </button>
-                        {% endfor %}
-                  {% endif %} 
-
-                {% if people.copromotion %}
-                  <button type="button" class="btn btn-outline-success btn-sm mt-1"><i class="fa-solid fa-users mr-1"></i>{{people.copromotion}}</button>
-                {% endif %} 
-
-                {% if people.phd %}
-                  <button type="button" class="btn btn-outline-success btn-sm mt-1"><i class="fa-solid fa-user mr-1"></i>phd student</button>
-                {% endif %} 
-                {% if people.postdoc %}
-                  <button type="button" class="btn btn-outline-success btn-sm mt-1"><i class="fa-solid fa-user mr-1"></i>postdoc</button>
-                {% endif %} 
-                {% if people.teaching %}
-                  <button type="button" class="btn btn-outline-success btn-sm mt-1"><i class="fa-solid fa-user mr-1"></i>teaching assistant</button>
-                {% endif %} 
-
-
-                {% if people.url %}
-                  <a href="{{ people.url }}" class="btn btn-outline-primary btn-sm mb-1" target="_blank">
-                    <i class="fa-solid fa-external-link"></i> Website
-                  </a>
-                {% endif %}
-                {% if people.url2 %}
-                  <a href="{{ people.url2 }}" class="btn btn-outline-primary btn-sm mb-1" target="_blank">
-                    <i class="fa-solid fa-external-link"></i> More info
-                  </a>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-          <hr>          
-      {% endif %}
-
-      {% endfor %}
-<hr>
-
-{% assign counterAdmin = 0 %}
-{% for people in site.data.people %}
-  {% if people.admintech%}
-      {% assign counterAdmin = counterAdmin | plus: 1 %}              
-  {% endif %}
-{% endfor %}
-
-<h3> Our {{counterAdmin}} Techs and Admins </h3>
-
-      {% for people in site.data.people %}
-        {% if people.admintech%}
-          <div class="clearfix mb-3">
-            <!-- Add the image tag here with float-left class -->
-            {% if people.image %}
-              <img src="/img/{{ people.image }}" alt="{{ people.name }}" class="float-left mr-3" style="max-width: 150px; border-radius: 5px;">
-            {% endif %}
-
-            <div class="overflow-hidden">
-              <h5 class="mb-1">{{ people.name }}</h5>
-              <!--p class="mb-1">{{ people.description | markdownify }}</p-->
-
-              <div class="float-left">
-                  {% if people.tags %}
-                        {% for tag in people.tags %}
-                        <button type="button" class="btn btn-outline-secondary btn-sm mt-1">
-                          <i class="fa-solid fa-tag mr-1"></i>{{tag}}
-                        </button>
-                        {% endfor %}
-                  {% endif %} 
-
-                {% for role in people.role %}
-                  <button type="button" class="btn btn-outline-info btn-sm mb-1">{{people.role}}</button>
-                  <button type="button" class="btn btn-outline-info btn-sm mb-1">{{people.role}}</button>
-                {% endfor %}
-
-                {% if people.url %}
-                  <a href="{{ people.url }}" class="btn btn-outline-primary btn-sm mb-1" target="_blank">
-                    <i class="fa-solid fa-external-link"></i> Website
-                  </a>
-                {% endif %}
-                {% if people.url2 %}
-                  <a href="{{ people.url2 }}" class="btn btn-outline-primary btn-sm mb-1" target="_blank">
-                    <i class="fa-solid fa-external-link"></i> More info
-                  </a>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-          <hr>          
-      {% endif %}
-
-      {% endfor %}
-<hr>
 
 
 
