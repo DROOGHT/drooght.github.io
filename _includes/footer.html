@@ -4,16 +4,22 @@
 
 <footer>
   <div class="container">
-    <div class="row ">
-      
-
-      <div class="col-lg-8 col-md-10 mx-auto copyright">
 
 
+    <div class="row">
+      <!-- First column for the image on the left -->
+      <div class="col-lg-6 col-md-6 d-flex align-items-center">
         <p class="copyright text-muted">{{ site.data.personal.address | markdownify }}</p>
         <hr>
         <p class="copyright text-muted">{{ site.data.personal.footer | markdownify }}</p>
       </div>
+
+      <!-- Second column for copyright information -->
+      <div class="col-lg-6 col-md-6">
+        <img src="{{ site.baseurl }}/assets/images/your-image.jpg" alt="{{ site.data.personal.credit.body}}" class="img-fluid" style="max-height: 100px;">
+        <p class="copyright text-muted">{{ site.data.personal.credit.body | markdownify }}</p>
+      </div>
     </div>
+
   </div>
 </footer>
