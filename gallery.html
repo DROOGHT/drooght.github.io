@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Gallery
-background: '/img/bg-field-3.jpg'
+background: '/img/bg-workers.jpg'
 form: false
 ---
 
-<h3>Pictures from the lab</h3>
+<h3>Pictures from the project</h3>
 
 <div class="gallery">
   {% for image in site.static_files %}
@@ -16,6 +16,8 @@ form: false
     {% endif %}
   {% endfor %}
 </div>
+
+
 
 <div id="imageModal" class="modal" onclick="closeModal()">
   <span class="close">&times;</span>
