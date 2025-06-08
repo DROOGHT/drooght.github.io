@@ -1,9 +1,9 @@
-title:              The PEPA Lab @ UCLouvain
+title:              DROOGHT project
 email:              guillaume.lobet@uclouvain.be
-description:        Our Lab website
+description:        Our project website
 author:             Guillaume Lobet
 baseurl:            /
-url:                https://guillaumelobet.github.io/
+url:                
 
 # Social Profiles
 github_username:    guillaumelobet
