@@ -36,7 +36,7 @@
 -
   name: Corentin Defalque
   description: >
-    Corentin is our first PhD student on the project. He work on the functional characteristation of root system architectures and anatomies. 
+    Corentin is a PhD student on the project. He works on the functional characteristation of root system architectures and anatomies. 
   researcher: yes
   current: yes
   phd: yes
@@ -47,6 +47,33 @@
     - drooght
     - ccp
 
+-
+  name: Dihlan Ozturk
+  description: >
+    Dihlan is a PhD student on the project. He work on the in silico identificaion of multiscale root traits beneficial to water uptake dynamics.
+  phd: yes
+  current: yes
+  image: peep-Ozturk.jpeg
+  tags:
+    - modelling
+    - roots 
+    - hydraulics
+    - architecture
+
+-
+  name: Myriam Kains
+  description: >
+    Myriam is a PhD student on the project. He work on identification of root eco-ideotypes across Europe.  
+  researcher: yes
+  phd: yes
+  current: yes
+  image: peep-kains.jpeg
+  tags:
+    - phenotyping
+    - roots 
+    - hydraulics
+    - architecture
+    - anatomy
 
 
 

@@ -57,6 +57,49 @@ form: fa-solidse
 
 
 
+<h3> Our close collaborators </h3>
+
+      {% for people in site.data.collabs %}
+          <div class="clearfix mb-3">
+            <!-- Add the image tag here with float-left class -->
+
+            <div class="overflow-hidden">
+              <h5 class="mb-1">{{ people.name }}</h5>
+              <blockquote class="mb-1">{{ people.description | markdownify }}</blockquote>
+
+              <div class="float-left">
+                  {% if people.tags %}
+                        {% for tag in people.tags %}
+                        <button type="button" class="btn btn-outline-secondary btn-sm mt-1">
+                          <i class="fa-solid fa-tag mr-1"></i>{{tag}}
+                        </button>
+                        {% endfor %}
+                  {% endif %} 
+
+                {% if people.alumni %}
+                  <button type="button" class="btn btn-outline-success btn-sm mt-1"><i class="fa-solid fa-user mr-1"></i>emeritus</button>
+                {% endif %} 
+
+
+                {% if people.url %}
+                  <a href="{{ people.url }}" class="btn btn-outline-primary btn-sm mb-1" target="_blank">
+                    <i class="fa-solid fa-external-link"></i> Website
+                  </a>
+                {% endif %}
+                {% if people.url2 %}
+                  <a href="{{ people.url2 }}" class="btn btn-outline-primary btn-sm mb-1" target="_blank">
+                    <i class="fa-solid fa-external-link"></i> More info
+                  </a>
+                {% endif %}                
+              </div>
+            </div>
+          </div>
+          <hr>          
+
+      {% endfor %}      
+
+
+
 
 
 

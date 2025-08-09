@@ -1,0 +1,33 @@
+-
+  name: Dominique Mingeot
+  description: >
+    Dominique is a permanent research at the CRA-W (BE). She is a specialist in wheat genetics and genetic diversity. She is Corentin's co-supervisor
+  researcher: yes
+  current: yes
+  tags:
+    - wheat
+    - diversity
+    - genetics 
+
+-
+  name: Bertrand Muller
+  description: >
+    Bertrand is a permanent research at the INRAE Montpellier (FR). He is a specilist of root development, phenotyping and modelling. He is Dihlan co-supervisor.
+  researcher: yes
+  current: yes
+  tags:
+    - wheat
+    - root
+    - phenotyping
+    - development
+
+-
+  name: Pierre Martre
+  description: >
+    Pierre is a permanent research at the INRAE Montpellier (FR). He is a specilist of wheat crop modelling.
+  researcher: yes
+  current: yes
+  tags:
+    - wheat
+    - crop
+    - modelling
