@@ -1,4 +1,16 @@
 -
+  name: Adrien Heymans
+  description: >
+    Adrien is a Chargé de Recherche FNRS in the Earth and Life Institute at UCLouvain. He is a specialist in root anatomical modelling, image analysis and all things computational. 
+  researcher: yes
+  current: yes
+  tags:
+    - root
+    - anatomy
+    - modelling
+    - image analysis 
+
+-
   name: Dominique Mingeot
   description: >
     Dominique is a permanent research at the CRA-W (BE). She is a specialist in wheat genetics and genetic diversity. She is Corentin's co-supervisor
