@@ -2,6 +2,20 @@
 
    
 -  type: journal
+   title: The Rapid Anatomics Tool (RAT). A low-cost root anatomical phenotyping pipeline reveals changes in root anatomy along the root axis
+   authors: Dylan H. Jones DH, Baca Cabrera JC, Behrend D, Wells DM, Swift J, Atkinson JA, Lobet G, Hanlon MT, Schneider HM
+   journal: BiorXiv
+   year: 2025
+   open: yes
+   preprint: yes
+   doi: 10.1101/2025.09.05.674482
+   pdf: https://www.biorxiv.org/content/10.1101/2025.09.05.674482v1.full.pdf
+   tags:
+   - root
+   - anatomy
+   - phenotyping
+   
+-  type: journal
    title: Role of xylem in root hydraulics. Functionality and implications for drought adaptation
    authors: Barry L, Baca Cabrera JC, Lucas M, Lobet G, Boursiac Y, Grondin A
    journal: Quantitative Plant Biology
