@@ -1,3 +1,19 @@
+-  type: journal
+   title: Beyond efficiency. The multi-scale architecture of robust water transport in plants
+   authors: Julkowska M, Lobet G, Chandrasekhar A
+   journal: Quantitative Plant Biology
+   year: 2025
+   open: yes
+   doi: 10.1017/qpb.2025.10035
+   image: img/art-granar.png
+   pdf: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A8B8A5B72AFA5BBFB512CA66FACBCDF0/S2632882825100350a.pdf/beyond-efficiency-the-multi-scale-architecture-of-robust-water-transport-in-plants.pdf
+   tags:
+   - drought
+   - root
+   - anatomy
+   - architecture
+   description : > 
+      Agronomic research has long prioritized efficiency (optimizing resource use to maximize yield under stable conditions). However, as climate variability intensifies, efficiency alone might be insufficient to sustain agricultural production in the future. Instead, robustness (the ability to maintain function across diverse and unpredictable environments) emerges as a critical trait. Robustness is not a simple metric but an emergent property, arising from the interplay of redundancy, heterogeneity and plasticity across biological scales. We examine how the components of robustness (redundance, heterogeneity and plasticity) express themselves at the anatomical, architectural and genomic scale. A major challenge is the lack of a unified framework to measure robustness. We propose integrating empirical metrics – such as vessel grouping indices, root trait heterogeneity and gene expression plasticity (with computational models to quantify redundancy, heterogeneity and plasticity). By synthesizing insights from physiology, genomics and modelling, we outline a path towards designing crops that thrive in ideal settings and under environmental uncertainty.
 
 
 -  type: journal
